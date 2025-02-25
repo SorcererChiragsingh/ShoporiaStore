@@ -8,7 +8,7 @@
   </a>
 </h2>
 
-<p>The "GoTrendzy" is a Full Stack E-Commerce Project using MERN. The Project uses HTML, CSS, React.Js, Node.Js, MongoDB, and JavaScript.</p>
+<p>The "GoTrendzy" is a full-fledged web application Project using MERN. The Project uses HTML, CSS, React.Js, Node.Js, MongoDB, JavaScript,  Redux toolkit, JWT Auth, Invoice Creation, Email Template, and Payment Gateway.</p>
 
 <a href="" target="_blank"><strong>➥ Live Demo</strong></a>
 
@@ -27,18 +27,25 @@
 
 ## About
 
-"GoTrendzy" is a Full Stack E-Commerce web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). The platform is designed to offer a seamless experience for book lovers, allowing users to browse, search, and purchase books from a wide selection of genres. The application provides features like user authentication, shopping cart management, order processing, and real-time inventory updates. The admin panel enables easy management of books, orders, and users, ensuring efficient operations for the store.
+"GoTrendzy" is a Full Stack E-Commerce Web Application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). Designed for a seamless shopping experience, the platform offers powerful features for both customers and administrators, ensuring smooth transactions and efficient store management.
+
+With GoTrendzy, we aim to provide a feature-rich, scalable, and secure e-commerce platform that enhances both user experience and store management. 🚀
 
 ## Features
 
-- **Feature 1:** User Authentication (Signup, Login and Logout)
-- **Feature 2:** Proper Landing page with categories and New Arrivals.
-- **Feature 3:** Product Listing Page.
-- **Feature 4:** 
-- **Feature 5:** 
-- **Feature 6:** 
-- **Feature 7:** 
-- **Feature 8:** 
+- **Feature 1:** 🌐 Full-Stack Web Development – Built with the MERN stack for a robust and scalable e-commerce experience.
+- **Feature 2:** 🔑 JWT Authentication – Secure user authentication and authorization using JSON Web Tokens (JWT).
+- **Feature 3:** 🛒 Shopping Cart & Order Management – Intuitive cart functionality with real-time order processing.
+- **Feature 4:** 📦 Real-Time Inventory Updates – Ensuring accurate stock tracking to prevent overselling.
+- **Feature 5:** 📧 Email Templates – Automated order confirmations, shipping notifications, and user communication via email.
+- **Feature 6:** ⚙️ CRUD Application – Full Create, Read, Update, Delete (CRUD) functionality for users, products, and orders.
+- **Feature 7:** 📜 Invoice Generator – Generate detailed invoices for orders directly from the platform.
+- **Feature 8:** 💳 Payment Gateway Integration – Seamless and secure payment processing via popular gateways (Stripe, PayPal, etc.).
+- **Feature 9:** 📡 API Development – Well-structured RESTful APIs for handling backend operations efficiently.
+- **Feature 10:** ⚡ Redux Toolkit – State management using Redux Toolkit for a smooth and responsive UI.
+- **Feature 11:** 🛠️ Admin Panel – Comprehensive admin dashboard to manage users, products, orders, and reports efficiently.
+- **Feature 12:** Proper Landing page with categories and New Arrivals.
+- **Feature 13:** Product Listing Page.
 
 ## Screenshots
 - Home Page : 
@@ -61,10 +68,12 @@
 
 ## Roadmap
 
- - Personalized Recommendations
- - 
+ - Live Chat Support – Real-time customer support with AI-powered chatbot integration.
+ - Dark Mode UI – User-friendly dark mode for a better browsing experience.
+ - Multi-Language & Multi-Currency Support – Expand to global markets with localization features.
  - User Reviews and Ratings
- - 
+ - Personalized Recommendations
+ - One-Click Checkout – Streamlined checkout process for faster purchases.
 
 
 ## Report Issues
@@ -73,7 +82,7 @@
 
 ## License
 
-- This project is licensed under the MIT License - see the [LICENSE](https://github.com/SorcererChiragsingh/Project-Bookshelf-Emporium/blob/main/License) file for details.
+- This project is licensed under the MIT License - see the [LICENSE](https://github.com/SorcererChiragsingh/GoTrendzy/blob/main/License) file for details.
 - The project Book Shelf Emporium is packaged and distributed using the [MIT License](https://choosealicense.com/licenses/mit/) which allows for commercial use, distribution, modification and private use provided that all copies of the software contain the same license and copyright.
 
 ## Acknowledgements
