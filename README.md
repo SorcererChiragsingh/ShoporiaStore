@@ -1,14 +1,14 @@
-<h1 align="center">GoTrendzy</h1>
+<h1 align="center">ShoporiaStore</h1>
 
 <div align="center">
 
 <h2 align="center">
   <a href="LICENSE">
-    <img src="https://github.com/SorcererChiragsingh/GoTrendzy/blob/main/build/media/MIT%20License.png" alt="MIT License" />
+    <img src="https://github.com/SorcererChiragsingh/ShoporiaStore/blob/main/build/media/MIT%20License.png" alt="MIT License" />
   </a>
 </h2>
 
-<p>The "GoTrendzy" is a full-fledged web application Project using MERN. The Project uses HTML, CSS, React.Js, Node.Js, MongoDB, JavaScript,  Redux toolkit, JWT Auth, Invoice Creation, Email Template, and Payment Gateway.</p>
+<p>The "ShoporiaStore" is a full-fledged web application Project using MERN. The Project uses HTML, CSS, React.Js, Node.Js, MongoDB, JavaScript,  Redux toolkit, JWT Auth, Invoice Creation, Email Template, and Payment Gateway.</p>
 
 <a href="" target="_blank"><strong>➥ Live Demo</strong></a>
 
@@ -27,9 +27,9 @@
 
 ## About
 
-"GoTrendzy" is a Full Stack E-Commerce Web Application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). Designed for a seamless shopping experience, the platform offers powerful features for both customers and administrators, ensuring smooth transactions and efficient store management.
+"ShoporiaStore" is a Full Stack E-Commerce Web Application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). Designed for a seamless shopping experience, the platform offers powerful features for both customers and administrators, ensuring smooth transactions and efficient store management.
 
-With GoTrendzy, we aim to provide a feature-rich, scalable, and secure e-commerce platform that enhances both user experience and store management. 🚀
+With ShoporiaStore, we aim to provide a feature-rich, scalable, and secure e-commerce platform that enhances both user experience and store management. 🚀
 
 ## Features
 
@@ -82,7 +82,7 @@ With GoTrendzy, we aim to provide a feature-rich, scalable, and secure e-commerc
 
 ## License
 
-- This project is licensed under the MIT License - see the [LICENSE](https://github.com/SorcererChiragsingh/GoTrendzy/blob/main/License) file for details.
+- This project is licensed under the MIT License - see the [LICENSE](https://github.com/SorcererChiragsingh/ShoporiaStore/blob/main/License) file for details.
 - The project Book Shelf Emporium is packaged and distributed using the [MIT License](https://choosealicense.com/licenses/mit/) which allows for commercial use, distribution, modification and private use provided that all copies of the software contain the same license and copyright.
 
 ## Acknowledgements
