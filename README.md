@@ -82,7 +82,7 @@ With ShoporiaStore, we aim to provide a feature-rich, scalable, and secure e-com
 
 ## License
 
-- This project is licensed under the MIT License - see the [LICENSE](https://github.com/SorcererChiragsingh/ShoporiaStore/blob/main/License) file for details.
+- This project is licensed under the MIT License - see the [LICENSE](https://github.com/SorcererChiragsingh/ShoporiaStore?tab=MIT-1-ov-file) file for details.
 - The project Book Shelf Emporium is packaged and distributed using the [MIT License](https://choosealicense.com/licenses/mit/) which allows for commercial use, distribution, modification and private use provided that all copies of the software contain the same license and copyright.
 
 ## Acknowledgements
