@@ -4,7 +4,7 @@
 
 <h2 align="center">
   <a href="LICENSE">
-    <img src="https://github.com/SorcererChiragsingh/ShoporiaStore/blob/main/build/media/MIT%20License.png" alt="MIT License" />
+    <img src="https://github.com/SorcererChiragsingh/ShoporiaStore/blob/main/media/MIT%20License.png" alt="MIT License" />
   </a>
 </h2>
 
