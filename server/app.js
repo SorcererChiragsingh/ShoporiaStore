@@ -4,7 +4,8 @@ const app = express();
 const port = 8000;
 const bodyParser = require('body-parser');
 const cors = require("cors");
-
+const connectdb = require("./db/connection.js");
+const database = "mongodb+srv://chiragsingh8926:edkPPeCNMN25t667@shoporiastore.lvefl.mongodb.net/?retryWrites=true&w=majority&appName=ShoporiaStore";
 
 
 
@@ -15,7 +16,7 @@ app.use(bodyParser.json());
 app.use(express.json());
 app.use("/api/user", userrouter);
 
-
+connectdb(database)
 app.listen(port, () => {
     console.log(`server is runing at ${port}`);
   });
