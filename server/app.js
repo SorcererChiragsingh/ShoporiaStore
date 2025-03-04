@@ -14,6 +14,7 @@ const database = "mongodb+srv://chiragsingh8926:edkPPeCNMN25t667@shoporiastore.l
 app.use(cors());
 app.use(bodyParser.json());
 app.use(express.json());
+require ("./Models/usertable.js")
 app.use("/api/user", userrouter);
 
 connectdb(database)

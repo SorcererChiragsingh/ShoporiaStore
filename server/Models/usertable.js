@@ -52,11 +52,12 @@ const userSchema = mongoose.Schema(
 // userSchema.plugin(indianTimestampPlugin);
 
 
-userSchema.pre('save', function(next) {
-  this.createdAt = moment().format('YYYY-MM-DD');
-  this.updatedAt = moment().format('YYYY-MM-DD');
-  next();
-});
+// userSchema.pre('save', function(next) {
+// this.createdAt = moment().format('YYYY-MM-DD');
+//   this.updatedAt = moment().format('YYYY-MM-DD');
+//   next();
+// });
+
 
 const Usertable = mongoose.model("Usertable", userSchema);
 module.exports = Usertable;
