@@ -1,4 +1,5 @@
 const userrouter = require("./routes/userRouter.js");
+const categoryrouter = require("./routes/categoryRouter.js")
 const express = require("express");
 const app = express();
 const port = 8000;
@@ -15,7 +16,10 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(express.json());
 require ("./Models/usertable.js")
+require ("./Models/category.js")
 app.use("/api/user", userrouter);
+app.use("/api/category", categoryrouter);
+
 
 connectdb(database)
 app.listen(port, () => {

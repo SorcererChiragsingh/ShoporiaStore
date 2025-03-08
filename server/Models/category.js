@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 // Declare the Schema of the Mongo model
 var categorySchema = new mongoose.Schema({
-    name:{
+   name:{
         type:String,
         required:[true, "name is required"],
         unique:[true,"name must be unique"],
@@ -45,7 +45,7 @@ var categorySchema = new mongoose.Schema({
     banner:{
         type:String,
         default:null
-    },
+    }, 
 },{timestamps:true});
 
 //Export the model
