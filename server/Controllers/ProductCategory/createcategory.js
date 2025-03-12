@@ -1,17 +1,3 @@
-
-
-
-
-const createcategory = async (req, res) => {
-  try{
-    
-  } catch(error) {
-
-  }
-}
-
-module.exports = createcategory;
-/*
 const category = require("../../Models/category");
 const slugify = require("slugify");  // slugify working defined below.
 const createcategory = async (req, res) => {
@@ -86,7 +72,6 @@ async function checkIfCategoryExists(keyvalue,name) {
 
 module.exports = createcategory;
 
-*/
 
 
 // Working of slugify: 

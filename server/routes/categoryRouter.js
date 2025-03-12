@@ -1,9 +1,12 @@
 const express = require('express')
 const createcategory = require('../Controllers/ProductCategory/createcategory.js');
+const upload = require('../middlewares/image-uploader.js');
 const routercate = express.Router()
 
 
-routercate.post('/',createcategory);
+routercate.post('/',upload.fields([
+  { name: 'category_image', maxCount: 1 },
+]),createcategory);
 
 
 
