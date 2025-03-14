@@ -22,6 +22,4 @@ app.use("/api/category", categoryrouter);
 
 
 connectdb(database)
-app.listen(port, () => {
-    console.log(`server is runing at ${port}`);
-  });
+app.listen(port, () => {console.log(`server is runing at ${port}`);});
