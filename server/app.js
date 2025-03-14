@@ -1,11 +1,12 @@
-// 
+// used to import modules  in Node.js.
 
-const express = require("express");
-const app = express();
+const express = require("express"); // Imports the Express.js framework, which is used for building web applications and APIs.
+const app = express(); // Creates an instance of an Express application.
 const port = 8000;
-const bodyParser = require('body-parser');
-const cors = require("cors");
-const connectdb = require("./db/connection.js");
+const bodyParser = require('body-parser'); // Imports body-parser, a middleware that helps process incoming request bodies (like JSON or URL-encoded data).
+const cors = require("cors"); // Imports CORS (Cross-Origin Resource Sharing) middleware to handle cross-origin requests.
+const connectdb = require("./db/connection.js"); // Imports a local module (connection.js) from the db directory, likely for database connection setup.
+
 
 // path for the defined routes 
 
