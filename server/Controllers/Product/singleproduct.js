@@ -21,9 +21,7 @@ const fetchchildcategory = async (categoryarray) => {
   if (categoryarray[0]) {
     try {
       const categoryIds = categoryarray[0].split(",");
-      const objectIdArray = categoryIds.map(
-        (id) => new mongoose.Types.ObjectId(id)
-      );
+      const objectIdArray = categoryIds.map((id) => new mongoose.ObjectId(id));
       const categories = await category.find({ _id: { $in: objectIdArray } });
       return categories;
     } catch (error) {}
