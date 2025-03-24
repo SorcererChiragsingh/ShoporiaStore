@@ -19,6 +19,8 @@ const cartrouter = require("./routes/cartRouter.js")
 const orderrouter = require("./routes/orderRouter.js")
 const addressrouter = require("./routes/addressRouter.js")
 const inforouter = require("./routes/infoRouter.js");
+const brandrouter = require("./routes/brandRouter.js")
+const carousellistrouter = require("./routes/carousellistRouter.js")
 
 
 
@@ -59,6 +61,8 @@ app.use("/api/cart", cartrouter);
 app.use("/api/order",orderrouter);
 app.use("/api/address",addressrouter);
 app.use("/api", inforouter);
+app.use("/api/brand",brandrouter);
+app.use("/api/list",carousellistrouter);
 
 
 connectdb(database)
