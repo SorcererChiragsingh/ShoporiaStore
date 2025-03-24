@@ -17,6 +17,8 @@ const variantrouter = require("./routes/variantRouter.js")
 const wishlistrouter = require("./routes/wishlistRouter.js")
 const cartrouter = require("./routes/cartRouter.js")
 const orderrouter = require("./routes/orderRouter.js")
+const addressrouter = require("./routes/addressRouter.js")
+const inforouter = require("./routes/infoRouter.js");
 
 
 
@@ -55,6 +57,8 @@ app.use("/api/variant", variantrouter);
 app.use("/api/wishlist", wishlistrouter);
 app.use("/api/cart", cartrouter);
 app.use("/api/order",orderrouter);
+app.use("/api/address",addressrouter);
+app.use("/api", inforouter);
 
 
 connectdb(database)
