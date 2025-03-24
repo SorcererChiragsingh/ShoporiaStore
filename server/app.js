@@ -21,6 +21,8 @@ const addressrouter = require("./routes/addressRouter.js")
 const inforouter = require("./routes/infoRouter.js");
 const brandrouter = require("./routes/brandRouter.js")
 const carousellistrouter = require("./routes/carousellistRouter.js")
+const bannerrouter = require("./routes/bannerRouter.js")
+const attributerouter = require("./routes/attributeRouter.js")
 
 
 
@@ -63,7 +65,8 @@ app.use("/api/address",addressrouter);
 app.use("/api", inforouter);
 app.use("/api/brand",brandrouter);
 app.use("/api/list",carousellistrouter);
-
+app.use("/api/attribute", attributerouter);
+app.use("/api/banner", bannerrouter);
 
 connectdb(database)
 app.listen(port, () => {console.log(`server is runing at ${port}`);});
