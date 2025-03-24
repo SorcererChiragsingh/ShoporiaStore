@@ -15,6 +15,10 @@ const categoryrouter = require("./routes/categoryRouter.js")
 const productrouter = require("./routes/productRouter.js")
 const variantrouter = require("./routes/variantRouter.js")
 const wishlistrouter = require("./routes/wishlistRouter.js")
+const cartrouter = require("./routes/cartRouter.js")
+const orderrouter = require("./routes/orderRouter.js")
+
+
 
 
 //  Database connection route
@@ -30,12 +34,13 @@ require("./Models/attribute");
 require("./Models/product");
 require("./Models/product_variant");
 require("./Models/usertable");
-require("./Models/wishlist");
+require("./Models/cart");
 require("./Models/brand");
 require("./Models/address");
 require("./Models/order");
 require("./Models/product_variant");
 require("./Models/wishlist");
+require("./Models/banner");
 
 
 
@@ -48,6 +53,8 @@ app.use("/api/category", categoryrouter);
 app.use("/api/product",productrouter);
 app.use("/api/variant", variantrouter);
 app.use("/api/wishlist", wishlistrouter);
+app.use("/api/cart", cartrouter);
+app.use("/api/order",orderrouter);
 
 
 connectdb(database)
