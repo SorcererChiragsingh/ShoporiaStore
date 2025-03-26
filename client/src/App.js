@@ -27,6 +27,9 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Pay from "./pages/Pay";
 import Categoryforbrand from "./pages/Category-for-brand";
 
+
+
+
 function App() {
   return (
     <div className="App">
@@ -54,6 +57,7 @@ function App() {
         <Route path="/thankyoupage" element={<Thankyoupage/>} />
         <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
         <Route path="/termsconditions" element={<Termsconditions/>} />
+        <Route path="/Orderhistory" element={<Orderhistory/>} />
         {/* <Route path="*" element={<Error />} /> */}
       </Routes>
     </div>
