@@ -1,4 +1,5 @@
 import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavLink, useParams } from "react-router-dom";
 import Editattributeform from "./Editattributeform";
 

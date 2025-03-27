@@ -1,4 +1,5 @@
 import "../../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import { Field, Form, Formik } from "formik";
 import { Attributevalidation } from "../Validation/Attributevalidation";
 import { useNavigate } from "react-router-dom";
