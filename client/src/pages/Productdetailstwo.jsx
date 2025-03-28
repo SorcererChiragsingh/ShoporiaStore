@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import OwlCarousel from "react-owl-carousel";
-import ReactImageMagnify from 'react-image-magnify';
+// import ReactImageMagnify from 'react-image-magnify';
+import ImageZoom from 'react-medium-image-zoom';
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import Footer from '../components/Footer';
@@ -101,7 +102,7 @@ function Productdetailstwo() {
                         <div className="col-md-9 col-9">
                           <div className="product-slick ">
                             <div>
-                              <ReactImageMagnify
+                              <ImageZoom
                                 {...{
                                   smallImage: {
                                     alt: 'Wristwatch by Versace',

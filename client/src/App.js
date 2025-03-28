@@ -29,7 +29,6 @@ import Categoryforbrand from "./pages/Category-for-brand";
 
 
 
-
 function App() {
   return (
     <div className="App">
