@@ -1,23 +1,32 @@
 import { address } from "../../Validation/address";
 import { Field, Formik, Form } from "formik";
-import csc from "country-state-city";
+import { City, Country, State } from "country-state-city"; // Corrected import
 import { usePostCreateAddressMutation } from "../../store/api/addressapi";
+
 const AddressformComp = ({ addaddress, closefun, reload }) => {
-  const countries = csc.getAllCountries();
+  const countries = Country.getAllCountries(); // Corrected usage
 
   const updatedCountries = countries.map((country) => ({
     label: country.name,
-    value: country.id,
+    value: country.isoCode, // Corrected value to isoCode as id is not available.
     ...country,
   }));
-  const updatedStates = (countryId) =>
-    csc
-      .getStatesOfCountry(countryId)
-      .map((state) => ({ label: state.name, value: state.id, ...state }));
-  const updatedCities = (stateId) =>
-    csc
-      .getCitiesOfState(stateId)
-      .map((city) => ({ label: city.name, value: city.id, ...city }));
+
+  const updatedStates = (countryCode) => // changed countryId to countryCode
+    State.getStatesOfCountry(countryCode).map((state) => ({ // Corrected usage
+      label: state.name,
+      value: state.isoCode, // Corrected value to isoCode as id is not available.
+      ...state,
+    }));
+
+  const updatedCities = (countryCode, stateCode) => // added country code as a parameter
+    City.getCitiesOfState(stateCode, countryCode).map((city) => ({ // corrected usage
+      label: city.name,
+      value: city.name, // correct value as id is not available.
+      ...city,
+    }));
+
+
 
   const [postaddress] = usePostCreateAddressMutation();
   const createrecord = async (data) => {
